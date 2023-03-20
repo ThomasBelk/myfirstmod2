@@ -10,6 +10,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.youseless.myfirstmod.block.ModBlocks;
 import net.youseless.myfirstmod.item.ModCreativeModTabs;
 import net.youseless.myfirstmod.item.ModItem;
 
@@ -26,6 +27,7 @@ public class MyFirstMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItem.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -49,9 +51,19 @@ public class MyFirstMod
             event.accept(ModItem.RAW_BLACK_OPAL);
         }
 
+        if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.BLACK_OPAL_BLOCK);
+        }
+
         if(event.getTab() == ModCreativeModTabs.MY_FIRST_TAB) {
             event.accept(ModItem.BLACK_OPAL);
             event.accept(ModItem.RAW_BLACK_OPAL);
+            event.accept(ModBlocks.BLACK_OPAL_BLOCK);
+            event.accept(ModBlocks.BLACK_OPAL_ORE);
+            event.accept(ModBlocks.DEEPSLATE_BLACK_OPAL_ORE);
+            event.accept(ModBlocks.ENDSTONE_BLACK_OPAL_ORE);
+            event.accept(ModBlocks.NETHERRACK_BLACK_OPAL_ORE);
+
         }
 
     }
