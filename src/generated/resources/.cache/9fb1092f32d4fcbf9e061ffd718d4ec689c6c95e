@@ -1,0 +1,7 @@
+// 1.19.3	2023-03-22T12:39:07.2551489	Recipes
+dff32392253b4c8b2c42348717f352439fcabf5f data/minecraft/advancements/recipes/building_blocks/black_opal.json
+6db5f5e7754989ffc62b378e2e16b4aeb0c7f753 data/minecraft/advancements/recipes/misc/black_opal_block.json
+7965621726e5073cb0c6012040ced350820c0d04 data/minecraft/recipes/black_opal.json
+e1e305bbefb2bb108870dd441570a71d4efe1818 data/minecraft/recipes/black_opal_block.json
+297c47790be1827ec4a4cd3c838e2f92184964d9 data/myfirstmod/advancements/recipes/misc/black_opal_from_smelting_raw_black_opal.json
+569d2879863d477aedb732ee68d1773372897469 data/myfirstmod/recipes/black_opal_from_smelting_raw_black_opal.json

@@ -8,5 +8,14 @@
   "block.myfirstmod.endstone_black_opal_ore": "Endstone Black Opal Ore",
   "block.myfirstmod.netherrack_black_opal_ore": "Netherrack Black Opal Ore",
 
+
+  "block.myfirstmod.ebony_log" : "Ebony Log",
+  "block.myfirstmod.ebony_wood" : "Ebony Wood",
+  "block.myfirstmod.stripped_ebony_log" : "Stripped Ebony Log",
+  "block.myfirstmod.stripped_ebony_wood" : "Stripped Ebony Log",
+  "block.myfirstmod.ebony_planks" : "Ebony Planks",
+  "block.myfirstmod.ebony_sapling" : "Ebony Sapling",
+  "block.myfirstmod.ebony_leaves" : "Ebony Leaves",
+
   "creativemodetab.my_first_tab": "Tutorial Tab"
 }
